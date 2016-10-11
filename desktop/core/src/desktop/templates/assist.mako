@@ -1464,7 +1464,7 @@ from metadata.conf import has_navigator
                 if (typeof data.results !== 'undefined') {
                   data.results.forEach(function (result) {
                     var icon = '';
-                    switch (result.type) {
+                    switch (result.type) { // TODO all types
                       case 'TABLE':
                         icon = 'fa-table';
                         break;
